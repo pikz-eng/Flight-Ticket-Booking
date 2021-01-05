@@ -211,7 +211,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'john@gmail.com','John','Doe',NULL,'mariusmarius','john'),(2,'mike@gmail.com','Mike','Jacson',NULL,'alexalex','mike');
+INSERT INTO `users` VALUES (1,'john@gmail.com','John','Doe','Alex','$2a$10$AMWzFJ.r./FjI4eK2x6CC.33/SZpOMqvd6r7/rhlWOA2UU3fs/VY.','marius'),(2,'mike@gmail.com','Mike','Jacson',NULL,'alexalex','mike');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
