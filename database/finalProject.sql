@@ -2,6 +2,7 @@
 -- Host: localhost    Database: flight_booking
 
 
+
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -211,7 +212,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'john@gmail.com','John','Doe','Alex','$2a$10$mXz6ZWOMT98buRjXWcEdk.N4x7LhJOQ272RC6Y.ratcu7q603u9Mm','marius'),(2,'mike@gmail.com','Mike','Jacson',NULL,'alexalex','mike');
+INSERT INTO `users` VALUES (1,'john@gmail.com','John','Doe','Alex','$$2a$08$otY8XSnZxjuz1TssyDV/OOqJ/fNJY9KtD3KqFd5y8GZHhlXsSz02C','marius'),(2,'mike@gmail.com','Mike','Jacson',NULL,'alexalex','mike');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
